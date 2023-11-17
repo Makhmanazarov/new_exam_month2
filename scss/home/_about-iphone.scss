@@ -1,0 +1,117 @@
+.about_iphone__section {
+    padding-top: 72px;
+}
+
+.about_iphone__section_title {
+    color: $secondary;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+
+.about_iphone__section_text {
+    color: $sixth;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.about_iphone__section_sup {
+    background-color: #000;
+    margin-bottom: 32px;
+}
+
+.about_iphone__section_sup_container {
+    padding-top: 84px;
+}
+
+.about_iphone__section_sup_block_content_title {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.about_iphone__section_sup_block_content_text {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.about_iphone__section_sup_block_content_btn {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: $primary;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.about_iphone__section_sup_block_img2,
+.about_iphone__section_sup_block_img3 {
+    display: none;
+}
+
+.about_iphone__section_sup_block {
+    display: flex;
+    align-items: center;
+    gap: 88px;
+}
+// // //
+
+@media screen  and (max-width:845px){
+    .about_iphone__section_sup_block_img{
+        display: none;
+    }
+    .about_iphone__section_sup_block_img2{
+        display: inline-block;
+    }
+    .about_iphone__section_sup_block_content_title{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .about_iphone__section_sup_block_content_text{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .about_iphone__section_sup_container {
+        padding-top: 40px;
+    }
+}
+@media screen  and (max-width:510px){
+    .about_iphone__section_sup_block_img{
+        display: none;
+    }
+    .about_iphone__section_sup_block_img2{
+         display: none;
+    }
+    .about_iphone__section_sup_block_img3{
+        display: inline-block;
+    }
+    .about_iphone__section_sup_block_content_title{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .about_iphone__section_sup_block_content_text{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+    .about_iphone__section_sup_container {
+        padding-top: 24px;
+    }
+    .about_iphone__section_sup_block_content_btn{
+        padding: 13px 40px;
+    }
+    .about_iphone__section_sup_block{
+        gap: 24px;
+    }
+    
+}
